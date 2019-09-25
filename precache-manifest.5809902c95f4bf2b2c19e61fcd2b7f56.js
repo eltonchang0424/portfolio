@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0050885abec00770d2198862b10a3b79",
+    "revision": "4564404a366338fe537afc2c6eb4f453",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "d52279891d3cccb21689",
-    "url": "/portfolio/static/css/main.1947db20.chunk.css"
+    "revision": "b536336cb05bddd1ce75",
+    "url": "/portfolio/static/css/main.8a34a046.chunk.css"
   },
   {
     "revision": "64d9d6a63ffcd9cc54ff",
     "url": "/portfolio/static/js/2.28b714c8.chunk.js"
   },
   {
-    "revision": "d52279891d3cccb21689",
+    "revision": "b536336cb05bddd1ce75",
     "url": "/portfolio/static/js/main.18a75aba.chunk.js"
   },
   {
@@ -24,8 +24,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/runtime-main.fc9ca9e2.js"
   },
   {
+    "revision": "1810ef31ec03f69edc35c9ebf2909757",
+    "url": "/portfolio/static/media/Gidole-Regular.1810ef31.ttf"
+  },
+  {
     "revision": "281ce7fd967e1b5d8056862789269dc3",
     "url": "/portfolio/static/media/Resume_final.281ce7fd.pdf"
+  },
+  {
+    "revision": "22dd36f616c2ece8a4b1cc2217095003",
+    "url": "/portfolio/static/media/SIMPLIFICA Typeface.22dd36f6.ttf"
   },
   {
     "revision": "ba588acf97e7f241353e9c510422c09c",
