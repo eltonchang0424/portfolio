@@ -69,7 +69,8 @@ class About extends Component{
 					<div 					
 							data-aos="fade-up"
 							data-aos-delay="2400"
-							data-aos-once="true">
+							data-aos-once="true"
+							data-aos-anchor="welcome_text">
 						<a href={resume} className="resume">MY RESUME</a>
 					</div>
 				</div>
