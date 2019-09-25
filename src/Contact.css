@@ -38,3 +38,10 @@
     top: -5px;
    	transition: all 0.35s ease;
 }
+
+.copyright{
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	font-family: "gidole"
+}

@@ -75,6 +75,7 @@ class Contact extends Component{
 					</a>
 					</div>
 				</div>
+				<h2 className = "copyright">© 2019 Elton Chang</h2>
 			</div>
 		);
 	}
