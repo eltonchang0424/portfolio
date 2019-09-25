@@ -19,7 +19,7 @@ aos.init();
 const particleParams = {
   particles: {
           number: {
-              value: 80,
+              value: 100,
               density: {
                   enable: true,
                   value_area: 1500
@@ -31,7 +31,7 @@ const particleParams = {
           },
           move: {
               direction: "right",
-              speed: 0.1
+              speed: 0.2
           },
           size: {
               value: 1
