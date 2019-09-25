@@ -1,11 +1,11 @@
 @font-face{
 	font-family: "Simplifica";
-	src: local('Simplifica'), url(./fonts/SIMPLIFICA Typeface.ttf) format('ttf');
+	src: local('Simplifica'), url(./fonts/SIMPLIFICA Typeface.ttf) format('truetype');
 }
 
 @font-face{
 	font-family: "Gidole";
-	src: local('Gidole'), url(./fonts/Gidole-Regular.ttf) format('ttf');
+	src: local('Gidole'), url(./fonts/Gidole-Regular.ttf) format('truetype');
 }
 
 .profile_pic{
