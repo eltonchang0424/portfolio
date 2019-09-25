@@ -1,0 +1,206 @@
+.header{
+	font-family: "Simplifica";
+	letter-spacing: 0.3em;
+	font-size: 60px;
+	color: #c7ffcb;
+	padding-top: 150px;
+	text-shadow: 4px 4px black;
+}
+
+.my{
+	color: #fffee0;
+}
+
+.projectDiv, .projectDiv2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.projectDiv2{
+	justify-content: space-evenly;
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+.project{
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 350px;
+	height: 350px;
+	border-radius: 60%;
+	box-shadow: 50px, 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.projectText{
+	font-family: "Simplifica";
+	opacity: 1;
+	font-size: 45px;
+	color: #c7ffe8;
+	text-align: center;
+	margin-top: 80px;
+	letter-spacing: 0.15em;
+}
+
+.projectDesc{
+	font-family: "Gidole";
+	font-size: 20px;
+	color: #ebe8df;
+
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 120px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 120px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: rgba(41, 41, 41, 0.98);
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  height: 90%%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn{
+	background-color:transparent;
+	border-radius:28px;
+	border:2px solid #fffee0;
+	display:inline-block;
+	cursor:pointer;
+	color:#c7ffcb;
+	font-family: "Gidole";
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	transition: all 0.35s;
+	margin-top: 20px;
+	letter-spacing: 0.3em;
+}
+
+.btn:hover {
+	color:#000000;
+	background-color: #FFFFFF;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.textTitle{
+	font-size: 50px;
+	color: #ffffff;
+}
+
+.projectSplit{
+	display:flex;
+	justify-content: space-around;
+}
+
+.game{
+	width: 70%;
+	overflow: hidden;
+	display:flex;
+}
+
+.text{
+	font-family: "Gidole";
+	width: 500px;
+}
+
+.date{
+	font-family: "Gidole";
+	color: #bfbfbf;
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+.desc{
+	margin-top: 30px;
+	margin-left: 30px;
+	color: #ffffff;
+	text-align: left;
+}
+
+#game{
+	width:960px;
+	height:600px;
+	border:0;
+}
+
+#flappy{
+	width:960px;
+	height:600px;
+	border:0;
+}
+
+.img, .disc{
+	width: 100%;
+	height: 550px;
+	padding: 80px 0;
+	margin-left: 20px;
+}
+
+.disc{
+	margin-left: 200px;
+	width: 700px;
+	height: 500px;
+}

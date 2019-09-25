@@ -1,0 +1,106 @@
+.artHeader{
+	font-family: "Simplifica";
+	letter-spacing: 0.3em;
+	font-size: 60px;
+	color: #f1d6ff;
+	padding-top: 150px;
+	text-shadow: 4px 4px black;
+}
+
+.artLineOdd{
+	display:flex;
+	justify-content: space-between;
+}
+
+.artLineEven{
+	display:flex;
+	justify-content: space-evenly;
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+.artImg{
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.artImg:hover{
+	opacity: 0.25;
+	transition: all 0.35s;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 120px; /* Location of the box */
+  margin-top: -40px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: rgba(41, 41, 41, 0.98);
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  height: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.artTitle{
+	padding-top: 30px;
+	font-family: "Simplifica";
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	text-align: center;
+	font-size: 50px;
+}
+
+.imgFull{
+	height: 80%;
+}

@@ -1,0 +1,65 @@
+.title, .title2{
+	font-family: "Simplifica";
+	letter-spacing: 0.3em;
+	font-size: 60px;
+	color: #ffe587;
+	padding-top: 150px;
+	text-shadow: 4px 4px black;
+}
+
+.title2{
+	padding-top: 20px;
+
+}
+
+.my{
+	color: #fffee0;
+}
+
+.exp{
+	justify-content: space-between;
+	display:flex;
+	font-style: "Simplifica";
+	letter-spacing: 0.2em;
+	font-size: 20px;
+}
+
+.lang{
+	color: #fffdd9;
+}
+
+.techn{
+	color: #ffdcab;
+}
+
+.skills{
+	color: #ffbaab;
+}
+
+.icon{
+    position: relative;
+    width:10%;
+    height:10%;
+    margin-right: 15px;
+} 
+
+.icons{
+	display:flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+	align-items:center;
+}
+
+.languages, .technologies{
+	color: #fffff2;
+	font-family: "Gidole";
+	font-size: 20px;
+}
+
+.technologies{
+	text-align: left;
+}
+
+.hr{
+	margin-top: 55px;
+}

@@ -20,3 +20,103 @@
 .App-link {
   color: #09d3ac;
 }
+
+.particles {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.h1Style{
+  font-family: 'Simplifica';
+  font-size: 70px;
+  text-align: center;
+  color: #fffee0;
+  letter-spacing: 0.25em;
+}
+
+.h2Style{
+  font-family: 'Simplifica';
+  font-size: 35px;
+  color: #fffee0;
+  letter-spacing: 0.3em;
+  background-color:transparent;
+  display:inline-block;
+  cursor:pointer;
+  color:#fffee0;
+  font-family: "Gidole";
+  font-size: 25px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  transition: all 0.35s;
+  border-radius:28px;
+}
+
+.h2Style:hover {
+  color:#000000;
+  background-color: #FFFFFF;
+}
+
+.logoButton{
+  font-family: 'Simplifica';
+  font-size: 35px;
+  color: #fffee0;
+  letter-spacing: 0.3em;
+  background-color:transparent;
+  display:inline-block;
+  cursor:pointer;
+  color:#fffee0;
+  font-family: "Gidole";
+  font-size:20px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  transition: all 0.35s;
+  border-radius:28px;
+}
+
+.logoButton:hover{
+  color:#000000;
+  background-color: #FFFFFF;
+
+}
+
+.divStyle{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #fffee0;
+  width: 90%;
+  height: 120px;
+  background-color: rgb(37, 45, 63);
+  opacity: 0.97;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.h2divStyle{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+}
+
+.content{
+  margin: auto;
+  width: 80%;
+  font-family: 'Gidole';
+}
+
+*{
+  scroll-behavior: smooth;
+}
+

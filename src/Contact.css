@@ -1,0 +1,40 @@
+.contactTitle{
+	font-family: "Simplifica";
+	text-align: center;
+	letter-spacing: 0.3em;
+	font-size: 60px;
+	color: #fffee0;
+	padding-top: 150px;
+	text-shadow: 4px 4px black;
+}
+
+.contactDesc{
+	font-family: "Gidole";
+	text-align: center;
+	color: #ffffff;
+}
+
+.contact{
+	font-family: "Simplifica";
+	letter-spacing: 0.2em;
+	color: #ffe6a1;
+}
+
+.iconsContact{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 250px;
+}
+
+.iconContact{
+	width:75px;
+	height:75px;
+	fill:#fffee0;
+}
+
+.iconContact:hover{
+	fill:#ffe6a1;
+	position: relative; 
+    top: -5px;
+   	transition: all 0.35s ease;
+}
