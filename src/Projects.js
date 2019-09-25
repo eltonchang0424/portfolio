@@ -231,7 +231,7 @@ class Projects extends Component{
 						    	<div className = "text">
 							    	<h1 className = "textTitle">Discord Bot</h1>
 							    	<h2 className = "date">August 2019 - September 2019</h2>
-							    	<p className = "desc">boot is a Discrod bot with multiple features, ranging from allowing 2 users to play TicTacToe to explicit content filtering, from plain chat to the music played. The music filter uses the MusixMatch API. boot was built using JavaScript, the DiscordJS library, NodeJS, and external APIs.</p>
+							    	<p className = "desc">boot is a Discord bot with multiple features, ranging from allowing 2 users to play TicTacToe to explicit content filtering, from plain chat to the music played. The music filter uses the MusixMatch API. boot was built using JavaScript, the DiscordJS library, NodeJS, and external APIs.</p>
 							    	</div>
 							    <div className = "game">
 							    	<img className = "disc"
