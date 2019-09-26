@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c9734216fe1248835afba2db551a418",
+    "revision": "92521ec70cbc7eaff33f470251ae30a6",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "c949a623f0f73574b8c3",
+    "revision": "6ddbd6d0314447d2b476",
     "url": "/portfolio/static/css/main.0eb42344.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.28b714c8.chunk.js"
   },
   {
-    "revision": "c949a623f0f73574b8c3",
-    "url": "/portfolio/static/js/main.fd15bf48.chunk.js"
+    "revision": "6ddbd6d0314447d2b476",
+    "url": "/portfolio/static/js/main.95b89c6e.chunk.js"
   },
   {
     "revision": "2a3091d7d84f1ccdadf4",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Gidole-Regular.1810ef31.ttf"
   },
   {
-    "revision": "281ce7fd967e1b5d8056862789269dc3",
-    "url": "/portfolio/static/media/Resume_final.281ce7fd.pdf"
+    "revision": "59f2bf14115983027a95df3e7dc37c15",
+    "url": "/portfolio/static/media/Resume_final.59f2bf14.pdf"
   },
   {
     "revision": "22dd36f616c2ece8a4b1cc2217095003",
