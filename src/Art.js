@@ -10,7 +10,6 @@ import monolith from "./images/monolith.jpg";
 import turtle from "./images/turtle.jpg";
 import whale from "./images/whale.jpg";
 import coffee from "./images/coffee.jpg";
-import sam from "./images/sam.jpg";
 
 var picIndex = 1;
 
