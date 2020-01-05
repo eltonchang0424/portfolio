@@ -1,47 +1,97 @@
-.contactTitle{
-	font-family: "Simplifica";
-	text-align: center;
-	letter-spacing: 0.3em;
-	font-size: 60px;
-	color: #fffee0;
-	padding-top: 150px;
-	text-shadow: 4px 4px black;
-}
-
-.contactDesc{
-	font-family: "Gidole";
-	text-align: center;
-	color: #ffffff;
-}
-
-.contact{
-	font-family: "Simplifica";
-	letter-spacing: 0.2em;
-	color: #ffe6a1;
-}
-
-.iconsContact{
+.Contact{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	margin-bottom: 250px;
+	align-items: center;
 }
 
-.iconContact{
-	width:75px;
-	height:75px;
-	fill:#fffee0;
+.hr4{
+    border: 0;
+    height: 3px;
+    background: #333;
+    background: linear-gradient(to right, rgba(255,29,93,1) 80%, rgba(0,255,186,1) 80%);
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 
-.iconContact:hover{
-	fill:#ffe6a1;
-	position: relative; 
-    top: -5px;
-   	transition: all 0.35s ease;
+.contactInfoDesc{
+	font-family: Helvetica-Light;
+	color: rgba(200,200,200,1);
+	font-size: 20px;
+	letter-spacing: -0.5px;
+	text-align: center;
+}
+
+.contactInfoContainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.contactInfo{
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.contactInfoText{
+	font-family: Helvetica;
+	color: rgba(225,225,225,1);
+	font-size: 20px;
+	letter-spacing: -0.5px;
+	margin-left: 10px;
+}
+
+.emailButton{
+	fill: rgba(0,255,186,1);
+	border-radius: 100%;
+  	box-shadow: -4px -4px 3px 0 rgba(255,255,255,0.03),
+  			4px 4px 3px 0 rgba(0,0,0,0.25);
+  	background-color: rgba(27,27,27,1);
+  	width: 30px;
+  	height: 30px;
+  	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.emailButton:hover{
+	fill: rgba(255,29,93,1);
+	box-shadow: inset -2px -2px 3px 0 rgba(255,255,255,0.1),
+	      		inset 2px 2px 3px 0 rgba(0,0,0,0.35);
+}
+
+.phoneButton{
+	fill: rgba(255,29,93,1);
+	border-radius: 100%;
+  	box-shadow: -4px -4px 3px 0 rgba(255,255,255,0.03),
+  			4px 4px 3px 0 rgba(0,0,0,0.25);
+  	background-color: rgba(27,27,27,1);;
+  	width: 30px;
+  	height: 30px;
+  	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.phoneButton:hover{
+	fill: rgba(0,255,186,1);
+	box-shadow: inset -2px -2px 3px 0 rgba(255,255,255,0.1),
+	      		inset 2px 2px 3px 0 rgba(0,0,0,0.35);
 }
 
 .copyright{
+	background-color: rgba(27,27,27,1);
+	width: 200%;
 	text-align: center;
+	margin-top: 125px;
+	padding: 15px;
+	font-family: Helvetica-Light;
+	color: rgba(0,255,186,1);
 	font-size: 15px;
-	color: white;
-	font-family: "gidole"
+	letter-spacing: -0.5px;
+	box-shadow: 0px 4px 5px 8px rgba(255,255,255,0.05);
 }

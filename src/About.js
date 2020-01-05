@@ -1,80 +1,94 @@
 import React, {Component} from "react";
 import "./About.css";
-import prof from "./assets/prof.png"
-import aos from 'aos';
-import 'aos/dist/aos.css';
-import resume from './assets/Resume_final.pdf'
 
-var today = new Date()
-var curHr = today.getHours()
+import prof from "./images/sfprof.png";
+import resume from "./images/Resume v2.pdf"
 
-function greeting()
-{
-	if (curHr < 12) {
-	  return <h1 className = "h1">Good Morning! <intro 
-	  						data-aos="fade-in"
-							data-aos-delay="1300"
-							data-aos-duration="1000"
-							data-aos-once="true"
-							data-aos-mirror="false">I'm <name className = "name"> ELTON</name>. </intro></h1>;
-	} else if (curHr < 18) {
-	  return <h1 className = "h1">Good Afternoon! <intro 
-	  						data-aos="fade-in"
-							data-aos-delay="1300"
-							data-aos-duration="1000"
-							data-aos-once="true"
-							data-aos-mirror="false">I'm <name className = "name"> ELTON</name>. </intro></h1>;
-	} else {
-	  return <h1 className = "h1">Good Evening! <intro 
-	  						data-aos="fade-in"
-							data-aos-delay="1300"
-							data-aos-duration="1000"
-							data-aos-once="true"
-							data-aos-mirror="false">I'm <name className = "name"> ELTON</name>. </intro></h1>;
-	}
-}
-
-aos.init();
+var delay = 0;
+var offset = 50;
 
 class About extends Component{
-	render() {
+	render(){
 		return (
 			<div id = "About">
-				<div>
-					<div className = "welcome_text">
-						<div>
-							<h1 data-aos="fade-in"
-							data-aos-delay="800"
-							data-aos-duration="1000"
-							data-aos-once="true"
-							> {greeting()}</h1>
-							<h1
-							data-aos="flip-up"
-							data-aos-delay="1800"
-							data-aos-once="true"
-							className = "h1Sub"> I stand on the intersection where <art className = "art">ART</art> and <technology className = "tech">TECHNOLOGY</technology> meet. </h1>
-							<p 
-							data-aos="flip-up"
-							data-aos-delay="2100"
-							data-aos-once="true"
-							className = "bio"> I'm currently a junior studying computer science at UC Irvine and pursuing a minor in digital art. I love art and music and will always appreciate a good puzzle. Whenever I'm not busy working on schoolwork or personal projects, I like to play the piano or just doodle away mindlessly. As a computer science major and an avid drawing enthusiast, I stand on the intersection of where coding and art meet, and seek to combine these two opposite ends of the spectrum. Feel free to browse through what I’ve done!</p>
+			    <hr className = "hr1"></hr>
+				<div className="About">
+					<div className="aboutText">
+						<span className="text" data-aos="flip-up" data-aos-delay={delay}>
+							<span className="title1">
+								A
+							</span>
+						</span>
+						<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+							<span className="title1">
+								b
+							</span>
+						</span>
+						<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+							<span className="title1">
+								o
+							</span>
+						</span>
+						<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+							<span className="title1">
+								u
+							</span>
+						</span>
+						<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+							<span className="title1">
+								t
+							</span>
+						</span>
+						<span className="spaceTitle">
+		                	&nbsp;
+		             	</span>
+						<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+							<span className="title2">
+								m
+							</span>
+						</span>
+						<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+							<span className="title2">
+								e
+							</span>
+						</span>
+						<br></br><br></br><br></br><br></br>
+						<span className="info" data-aos="fade-right" data-aos-delay={delay+=300}>
+							Hey there! I’m Elton. I’m currently a junior studying computer science at UC Irvine. Ranging from artificial intelligence to web development, I’m always trying to learn something new. I will always enjoy a good puzzle, and to me, the field of computer science is full of them, just waiting to be solved.
+							<br></br><br></br>
+							Whenever I’m not busy working on schoolwork or personal projects, I enjoy playing the piano or doodling away mindlessly. Feel free to browse through what I’ve done!
+							<br></br><br></br>
+							Below are some of the tools I’ve used in my projects.<br></br><br></br>
+						</span>
+						<div className="lists" data-aos="fade-right" data-aos-delay={delay+=300}>
+							<ul>
+								<span className="listTitle"> Languages<br></br><br></br></span>
+								<li>Python</li>
+								<li>C#</li>
+								<li>C++</li>
+								<li>Java</li>
+								<li>JavaScript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<ul>
+								<span className="listTitle"> Technologies<br></br><br></br> </span>
+								<li>NodeJS</li>
+								<li>React</li>
+								<li>Flask</li>
+								<li>Unity</li>
+								<li>Adobe Photoshop</li>
+							</ul>
 						</div>
-						<img data-aos="fade-left"
-							data-aos-delay="1800"
-							data-aos-duration = "1500"
-							data-aos-mirror="false"className = "profile_pic"
-						 src = {prof}
-						/>
 					</div>
-					<div 					
-							data-aos="fade-up"
-							data-aos-delay="2400"
-							data-aos-once="true"
-							data-aos-anchor="welcome_text">
-						<a href={resume} className="resume">MY RESUME</a>
+					<div className="rightSide" data-aos="fade-in" data-aos-delay={delay}>
+						<img className="prof"
+							src = {prof}
+						/>
+						<a href={resume} target="_blank" className="learnMore">Resume</a>
 					</div>
 				</div>
-				<hr className = "hr"></hr>
 			</div>
 		);
 	}

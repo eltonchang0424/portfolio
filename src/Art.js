@@ -1,285 +1,156 @@
 import React, {Component} from "react";
 import "./Art.css";
-import aos from 'aos';
-import 'aos/dist/aos.css';
 
-import egg from './assets/art/egg.jpg'
-import elephant from './assets/art/elephant.jpg'
-import island from './assets/art/island.jpg'
-import jam from './assets/art/jam.jpg'
-import monolith from './assets/art/monolith.jpg'
-import owl from './assets/art/owl.jpg'
-import turtle from './assets/art/turtle.jpg'
-import whale from './assets/art/whale.jpg'
+import owl from "./images/owl.jpg";
+import elephant from "./images/elephant.jpg";
+import island from "./images/island.jpg";
+import egg from "./images/egg.jpg";
+import jam from "./images/jam.jpg";
+import monolith from "./images/monolith.jpg";
+import turtle from "./images/turtle.jpg";
+import whale from "./images/whale.jpg";
+import coffee from "./images/coffee.jpg";
+import sam from "./images/sam.jpg";
 
-aos.init();
+var picIndex = 1;
+
+function plusPic() {
+  showPic(picIndex += 1);
+}
+
+function minusPic() {
+  showPic(picIndex -= 1);
+}
+
+function showPic(n) {
+  var i;
+  const pics = document.getElementsByClassName("artSlide");
+
+  if (n > pics.length) {picIndex = 1}
+  if (n < 1) {picIndex = pics.length}
+  for (i = 0; i < pics.length; i++) {
+      pics[i].style.display = "none";
+  }
+
+  pics[picIndex-1].style.display = "block";
+}
+
+var delay = 0;
+var offset = 50;
 
 class Art extends Component{
 	componentDidMount(){
-		var modal = document.getElementsByClassName("myImgFull");
-
-		// Get the button that opens the modal
-		var btn = document.getElementsByClassName("myImg");
-
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("closeImg");
-
-		// When the user clicks the button, open the modal 
-		btn[0].onclick = function() {
-		  modal[0].style.display = "block";
-		}
-
-		btn[1].onclick = function() {
-		  modal[1].style.display = "block";
-		}
-
-		btn[2].onclick = function() {
-		  modal[2].style.display = "block";
-		}
-
-		btn[3].onclick = function() {
-		  modal[3].style.display = "block";
-		}
-
-		btn[4].onclick = function() {
-		  modal[4].style.display = "block";
-		}
-
-		btn[5].onclick = function() {
-		  modal[5].style.display = "block";
-		}
-
-		btn[6].onclick = function() {
-		  modal[6].style.display = "block";
-		}
-
-		btn[7].onclick = function() {
-		  modal[7].style.display = "block";
-		}
-
-		// When the user clicks on <span> (x), close the modal
-		span[0].onclick = function() {
-		  modal[0].style.display = "none";
-		}
-
-		span[1].onclick = function() {
-		  modal[1].style.display = "none";
-		}
-
-		span[2].onclick = function() {
-		  modal[2].style.display = "none";
-		}
-
-		span[3].onclick = function() {
-		  modal[3].style.display = "none";
-		}
-
-		span[4].onclick = function() {
-		  modal[4].style.display = "none";
-		}
-
-		span[5].onclick = function() {
-		  modal[5].style.display = "none";
-		}
-
-		span[6].onclick = function() {
-		  modal[6].style.display = "none";
-		}
-
-		span[7].onclick = function() {
-		  modal[7].style.display = "none";
-		}
-
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-		  if (event.target == modal[0]) {
-		    modal[0].style.display = "none";
-		  }
-
-		  if (event.target == modal[1]) {
-		    modal[1].style.display = "none";
-		  }
-
-		  if (event.target == modal[2]) {
-		    modal[2].style.display = "none";
-		  }
-
-		  if (event.target == modal[3]) {
-		    modal[3].style.display = "none";
-		  }
-
-		  if (event.target == modal[4]) {
-		    modal[4].style.display = "none";
-		  }
-
-		  if (event.target == modal[5]) {
-		    modal[4].style.display = "none";
-		  }
-
-		  if (event.target == modal[6]) {
-		    modal[4].style.display = "none";
-		  }
-
-		  if (event.target == modal[7]) {
-		    modal[4].style.display = "none";
-		  }
-		}
+		showPic(picIndex);
 	}
-	render() {
+	render(){
 		return (
 			<div id = "Art">
-				<h1 
-				data-aos="slide-right"
-				data-aos-delay="200"
-				data-aos-duration="700"
-				data-aos-once="true"
-				className = "artHeader"><my className = "my">MY</my> ART</h1>
-				<div className = "artLineOdd">
-				<div data-aos="fade-up"
-				data-aos-delay="700"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {turtle}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Young"</h1>
-							<img className = "imgFull" src = {turtle}/>
-						  </div>
-					</div>
-
-					</div>
-					<div data-aos="fade-up"
-				data-aos-delay="900"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {whale}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Contaminated"</h1>
-							<img className = "imgFull" src = {whale}/>
-						  </div>
-					</div>
-
-					</div>
-
-					<div data-aos="fade-up"
-				data-aos-delay="1100"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {jam}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Space Jam"</h1>
-							<img className = "imgFull" src = {jam}/>
-						  </div>
-					</div>
-					</div>
-				</div>
-
-				<div className = "artLineEven">
-				<div data-aos="fade-up"
-				data-aos-delay="1300"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {elephant}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Ancient"</h1>
-							<img className = "imgFull" src = {elephant}/>
-						  </div>
-
-					</div>
-
-					</div>
-				<div data-aos="fade-up"
-				data-aos-delay="1500"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {egg}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Nested"</h1>
-							<img className = "imgFull" src = {egg}/>
-						  </div>
-					</div>
-					</div>
-				</div>
-
-				<div className = "artLineOdd">
-				<div data-aos="fade-up"
-				data-aos-delay="1700"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {island}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Drifting"</h1>
-							<img className = "imgFull" src = {island}/>
-						  </div>
-					</div>
-
-					</div>
-					<div data-aos="fade-up"
-				data-aos-delay="1900"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {monolith}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Monolith"</h1>
-							<img className = "imgFull" src = {monolith}/>
-						  </div>
-					</div>
-
-					</div>
-
-					<div data-aos="fade-up"
-				data-aos-delay="2100"
-				data-aos-duration="700"
-				data-aos-once="true"
-				data-aos-anchor = "#Art"
-				className = "artImg">
-
-					<img className =  "myImg artImg" src = {owl}/>
-					<div className="myImgFull modal">
-						  <div className="modal-content">
-						    <span className="closeImg close">&times;</span>
-							<h1 className = "artTitle">"Wise"</h1>
-							<img className = "imgFull" src = {owl}/>
-						  </div>
-					</div>
+			    <hr className = "hr3"></hr>
+				<span className="text" data-aos="flip-up" data-aos-delay={delay}>
+					<span className="title1">
+						M
+					</span>
+				</span>
+				<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+					<span className="title1">
+						y
+					</span>
+				</span>
+				<span className="spaceTitle">
+                	&nbsp;
+             	</span>
+				<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+					<span className="title2">
+						a
+					</span>
+				</span>
+				<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+					<span className="title2">
+						r
+					</span>
+				</span>
+				<span className="text" data-aos="flip-up" data-aos-delay={delay+=offset}>
+					<span className="title2">
+						t
+					</span>
+				</span>
+				<div className="slideshow" data-aos="fade-in" data-aos-once="true" data-aos-delay={delay+=500}>
+					<div className="slideshowCenter">
+						<a className="arrow" onClick={minusPic}>
+							<svg style={{width:"24px", height:"24px"}} viewBox="0 0 24 24">
+							    <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+							</svg>
+						</a>
+						<div className="artSlide fade">
+							<div className="number">1/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Nested </div>
+								<img className="picImage" src={egg}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">2/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Space Jam </div>
+								<img className="picImage" src={jam}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">3/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Innocent </div>
+								<img className="picImage" src={turtle}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">4/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Ancient </div>
+								<img className="picImage" src={elephant}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">5/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Wise </div>
+								<img className="picImage" src={owl}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">6/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Contaminated </div>
+								<img className="picImage" src={whale}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">7/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Monolith </div>
+								<img className="picImage" src={monolith}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">8/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Adrift </div>
+								<img className="picImage" src={island}/>
+							</div>
+						</div>
+						<div className="artSlide fade">
+							<div className="number">9/9</div>
+							<div className="picTitleContainer">
+								<div className="picTitle"> Morning Coffee </div>
+								<img className="picImage" src={coffee}/>
+							</div>
+						</div>
+						<a className="arrow" onClick={plusPic}>
+							<svg style={{width:"24px", height:"24px"}} viewBox="0 0 24 24">
+							    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+							</svg>
+						</a>
 					</div>
 				</div>
-				<hr className = "hr"></hr>
 			</div>
 		);
 	}
