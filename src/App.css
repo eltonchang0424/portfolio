@@ -3,6 +3,16 @@
   src: local('yoxallbold'), url(./fonts/yoxall-bold.ttf) format('truetype');
 }
 
+@font-face{
+  font-family: "Helvetica-Light";
+  src: local('Helvetica-Light'), url(./fonts/Helvetica-Light.ttf) format('truetype');
+}
+
+@font-face{
+  font-family: "Helvetica-Bold";
+  src: local('Helvetica-Bold'), url(./fonts/Helvetica-Bold.ttf) format('truetype');
+}
+
 .pages{
   margin:auto;
   width: 87.5%;
