@@ -20,10 +20,10 @@ aos.init({
 const particleParams = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 75,
       "density": {
         "enable": true,
-        "value_area": 1000
+        "value_area": 1800
       }
     },
     "color": {
