@@ -50,6 +50,14 @@
 	width: 47%;
 }
 
+.link{
+	color: rgba(0,255,186,1);
+}
+
+.link:visited{
+	color: rgba(255,29,93,1);
+}
+
 .slideTitle{
 	font-family: Helvetica-Bold;
 	color: rgba(200,200,200,1);

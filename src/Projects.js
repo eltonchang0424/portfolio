@@ -136,7 +136,7 @@ class Projects extends Component{
 									September 2018<br></br><br></br>
 								</div>
 								<div className="slideDesc">
-									Flip Flop is a 2D mobile hyper casual-esque game made in Unity using C#. The object of the game is to get the highest score possible by collecting the stars, while avoiding the shadows that follow your previous moves. Gravity also switches every 5 seconds and a new shadow spawns every 5 points, so be wary!<br></br><br></br>You can see the code <a target="_blank" href="https://github.com/eltonchang0424/FlipFlop">here</a>.
+									Flip Flop is a 2D mobile hyper casual-esque game made in Unity using C#. The object of the game is to get the highest score possible by collecting the stars, while avoiding the shadows that follow your previous moves. Gravity also switches every 5 seconds and a new shadow spawns every 5 points, so be wary!<br></br><br></br>You can see the code <a className="link" target="_blank" href="https://github.com/eltonchang0424/FlipFlop">here</a>.
 								</div>
 							</div>
 							<div className = "gameContainer">
@@ -152,7 +152,7 @@ class Projects extends Component{
 									November 2018<br></br><br></br>
 								</div>
 								<div className="slideDesc">
-									FlappyAI is an artificial intelligence program made in Unity using C# that uses the genetic algorithm to play the Flappy Bird game. I built the neural network system from scratch.<br></br><br></br>The genetic algorithm models real life evolution, where the organisms with ideal traits have a higher survival rate, thus becoming more likely to pass down their genes to their children, and the cycle repeats. Here, how "good" each bird is is based on how far each one flies. The farther a bird flies, the more likely that their "genes" will be passed on over to the next generation, until eventually the perfect birds that never die are created. The "genes" here are sensors that detect how close a bird is from the pipe.<br></br><br></br>This process mostly relies on luck, so the results vary a lot. However, from my experience, the birds are usually trained within 20-50 generations.<br></br><br></br>You can see the code <a target="_blank" href="https://github.com/eltonchang0424/FlappyAI">here</a>.
+									FlappyAI is an artificial intelligence program made in Unity using C# that uses the genetic algorithm to play the Flappy Bird game. I built the neural network system from scratch.<br></br><br></br>The genetic algorithm models real life evolution, where the organisms with ideal traits have a higher survival rate, thus becoming more likely to pass down their genes to their children, and the cycle repeats. Here, how "good" each bird is is based on how far each one flies. The farther a bird flies, the more likely that their "genes" will be passed on over to the next generation, until eventually the perfect birds that never die are created. The "genes" here are sensors that detect how close a bird is from the pipe.<br></br><br></br>This process mostly relies on luck, so the results vary a lot. However, from my experience, the birds are usually trained within 20-50 generations.<br></br><br></br>You can see the code <a className="link" target="_blank" href="https://github.com/eltonchang0424/FlappyAI">here</a>.
 								</div>
 							</div>
 							<div className = "flappyContainer">
@@ -168,7 +168,7 @@ class Projects extends Component{
 									April - May 2019<br></br><br></br>
 								</div>
 								<div className="slideDesc">
-									cARd is an augmented reality card game that allows users to play cards on the go made in Unity using C# and ARCore. There are many functionalities, such as discarding, rotating, and zooming in on cards, as well as a shuffled deck, allowing users draw cards and play them as needed.<br></br><br></br>This was a project for our school's App Dev Club, where I teamed up with three other people. I worked on the user interface as well as generating the shuffled cards, putting them from the field into the user's hand.<br></br><br></br>You can see the code <a target="_blank" href="https://github.com/eltonchang0424/cARd">here</a>.
+									cARd is an augmented reality card game that allows users to play cards on the go made in Unity using C# and ARCore. There are many functionalities, such as discarding, rotating, and zooming in on cards, as well as a shuffled deck, allowing users draw cards and play them as needed.<br></br><br></br>This was a project for our school's App Dev Club, where I teamed up with three other people. I worked on the user interface as well as generating the shuffled cards, putting them from the field into the user's hand.<br></br><br></br>You can see the code <a className="link" target="_blank" href="https://github.com/eltonchang0424/cARd">here</a>.
 								</div>
 							</div>
 							<div className="projectPicContainer">
@@ -185,7 +185,7 @@ class Projects extends Component{
 									April 2019<br></br><br></br>
 								</div>
 								<div className="slideDesc">
-									reclaimEarth is a project made for CitrusHack 2019, where I teamed up with two other people. It is a crowdsourcing website to help clean up trash around the world. Users can login using Google, and help "ping" out any amount of litter they spot. Other users can then see these pings, and if nearby, can help clean up the trash there. There are different intensity levels for pings, indicating how much trash there is, as well as an option to upload pictures. There is also a point system, where your avatar levels up and you earn more points by helping clean and mark areas with trash.<br></br><br></br>I worked on the frontend of the website, using HTML and CSS to create a smooth UI, as well as making all the graphics for the website.<br></br><br></br>You can checkout reclaimEarth <a target="_blank" href="https://reclaimearth.herokuapp.com/">here</a>.<br></br><br></br>You can see the code <a target="_blank" href="https://github.com/eltonchang0424/reclaimearth">here</a>.
+									reclaimEarth is a project made for CitrusHack 2019, where I teamed up with two other people. It is a crowdsourcing website to help clean up trash around the world. Users can login using Google, and help "ping" out any amount of litter they spot. Other users can then see these pings, and if nearby, can help clean up the trash there. There are different intensity levels for pings, indicating how much trash there is, as well as an option to upload pictures. There is also a point system, where your avatar levels up and you earn more points by helping clean and mark areas with trash.<br></br><br></br>I worked on the frontend of the website, using HTML and CSS to create a smooth UI, as well as making all the graphics for the website.<br></br><br></br>You can checkout reclaimEarth <a className="link" target="_blank" href="https://reclaimearth.herokuapp.com/">here</a>.<br></br><br></br>You can see the code <a className="link" target="_blank" href="https://github.com/eltonchang0424/reclaimearth">here</a>.
 								</div>
 							</div>
 							<div className="projectPicContainer">
@@ -202,7 +202,7 @@ class Projects extends Component{
 									August - September 2019<br></br><br></br>
 								</div>
 								<div className="slideDesc">
-									boot is a Discord bot with multiple features, ranging from allowing 2 users to play TicTacToe to explicit content filtering, from plain chat to the music played. <br></br><br></br>The music filter uses the MusixMatch API, where the lyrics to a certain song are found and scanned for explicit content. If detected, boot skips the song. boot was built using JavaScript, the DiscordJS library, NodeJS, and external APIs.<br></br><br></br>You can see the code <a target="_blank" href="https://github.com/eltonchang0424/boot">here</a>.
+									boot is a Discord bot with multiple features, ranging from allowing 2 users to play TicTacToe to explicit content filtering, from plain chat to the music played. <br></br><br></br>The music filter uses the MusixMatch API, where the lyrics to a certain song are found and scanned for explicit content. If detected, boot skips the song. boot was built using JavaScript, the DiscordJS library, NodeJS, and external APIs.<br></br><br></br>You can see the code <a className="link" target="_blank" href="https://github.com/eltonchang0424/boot">here</a>.
 								</div>
 							</div>
 							<img className="boot" src={boot}/>
