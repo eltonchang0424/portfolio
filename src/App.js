@@ -45,7 +45,7 @@ const particleParams = {
       }
     },
     "opacity": {
-      "value": 0.065,
+      "value": 0.1,
       "random": true,
       "anim": {
         "enable": false,
