@@ -20,7 +20,7 @@ aos.init({
 const particleParams = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 100,
       "density": {
         "enable": true,
         "value_area": 1000
@@ -45,7 +45,7 @@ const particleParams = {
       }
     },
     "opacity": {
-      "value": 0.1,
+      "value": 0.15,
       "random": true,
       "anim": {
         "enable": false,
@@ -66,9 +66,9 @@ const particleParams = {
     },
     "line_linked": {
       "enable": true,
-      "distance": 60,
+      "distance": 80,
       "color": "#ffffff",
-      "opacity": 0.1,
+      "opacity": 0.15,
       "width": 1
     },
     "move": {
