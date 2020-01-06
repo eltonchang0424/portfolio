@@ -199,8 +199,9 @@ function App() {
         <div className="background">
           <div className="content">
             <div className = "textContainer">
-              {greeting()}
-              <br></br>
+              <div className="greeting">
+                {greeting()}
+              </div>
               <span className="text" data-aos="flip-up" data-aos-delay={delay+=150}>
                 <span className="header">
                   I

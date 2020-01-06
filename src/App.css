@@ -165,6 +165,10 @@
             inset 2px 2px 3px 0 rgba(0,0,0,0.35);
 }
 
+.greeting{
+  margin-bottom: 15px;
+}
+
 .textContainer{
   padding-top: 50px;
   text-align: left;
