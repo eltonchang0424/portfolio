@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 60px;
+  margin-right: 10%;
 } 
 
 .particles{
@@ -43,6 +43,7 @@
   left: 0;
   background-color: rgba(30,30,30,1);
   z-index: -100;
+  height: 100%;
 }
 
 .logo_background{
