@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import "./About.css";
 
 import prof from "./images/sfprof.png";
-import resume from "./images/Resume v2.pdf"
+import resume from "./images/Resume-final.pdf"
 
 var delay = 0;
 var offset = 50;

@@ -113,6 +113,13 @@
 	width: 90%;
 }
 
+.projectPicContainerVertical{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 90%;
+}
+
 .projectPic{
 	margin-top: -10px;
 	margin-bottom: 30px;
@@ -125,6 +132,11 @@
 	margin-left: 10%;
 	width: 60%;
 	height: 80%;
+}
+
+.allergize{
+	width: 32%;
+	margin: 10px;
 }
 
 .arrow{

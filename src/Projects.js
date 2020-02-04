@@ -6,6 +6,9 @@ import card2 from "./images/card2.jpg";
 import reclaimEarth from "./images/reclaimEarth.png";
 import reclaimEarth2 from "./images/reclaimEarth2.png";
 import boot from "./images/discord.png";
+import allergize1 from "./images/allergize_1.jpg";
+import allergize2 from "./images/allergize_2.jpg";
+import allergize3 from "./images/allergize_3.jpg";
 
 var slideIndex = 1;
 
@@ -35,6 +38,10 @@ function slide4() {
 
 function slide5() {
 	showSlides(slideIndex = 5);
+}
+
+function slide6() {
+	showSlides(slideIndex = 6);
 }
 
 function showSlides(n) {
@@ -207,6 +214,24 @@ class Projects extends Component{
 							</div>
 							<img className="boot" src={boot}/>
 						</div>
+						<div className="slide fade">
+							<div className="slideText">
+								<div className="slideTitle">
+									Allergize
+								</div>
+								<div className="slideDate">
+									February 2020<br></br><br></br>
+								</div>
+								<div className="slideDesc">
+									Allergize is a project made for HackUCI 2020, where I teamed up with three other people. It is a mobile app that allows the user to take a picture of their food and the app will tell them if they are allergic to anything in it.<br></br><br></br>Allergize was built using React Native, Expo, Heroku, Express, JavaScript, ClarifAI API, and Spoonacular API. The image taken by the user is fed into the ClarifAI API to determine what foods are in the image, and that list is then fed into the Spoonacular API to determine the common ingredients in those foods. The compiled list is compared to the allergy list made by the user.<br></br><br></br>Allergize won the “Best AI Hack” award. <br></br><br></br>You can see the code <a className="link" target="_blank" href="https://github.com/eltonchang0424/HackUCI">here</a>.
+								</div>
+							</div>
+							<div className="projectPicContainerVertical">
+								<img className="allergize" src={allergize1}/>
+								<img className="allergize" src={allergize2}/>
+								<img className="allergize" src={allergize3}/>
+							</div>
+						</div>
 						<a className="arrow" onClick={plusSlide}>
 							<svg style={{width:"24px", height:"24px"}} viewBox="0 0 24 24">
 							    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -237,6 +262,11 @@ class Projects extends Component{
 						<a className="thumbnailBtn" onClick={slide5}>
 							<svg style={{width:"24px", height:"24px"}} viewBox="0 0 24 24">
 							    <path d="M22,24L16.75,19L17.38,21H4.5A2.5,2.5 0 0,1 2,18.5V3.5A2.5,2.5 0 0,1 4.5,1H19.5A2.5,2.5 0 0,1 22,3.5V24M12,6.8C9.32,6.8 7.44,7.95 7.44,7.95C8.47,7.03 10.27,6.5 10.27,6.5L10.1,6.33C8.41,6.36 6.88,7.53 6.88,7.53C5.16,11.12 5.27,14.22 5.27,14.22C6.67,16.03 8.75,15.9 8.75,15.9L9.46,15C8.21,14.73 7.42,13.62 7.42,13.62C7.42,13.62 9.3,14.9 12,14.9C14.7,14.9 16.58,13.62 16.58,13.62C16.58,13.62 15.79,14.73 14.54,15L15.25,15.9C15.25,15.9 17.33,16.03 18.73,14.22C18.73,14.22 18.84,11.12 17.12,7.53C17.12,7.53 15.59,6.36 13.9,6.33L13.73,6.5C13.73,6.5 15.53,7.03 16.56,7.95C16.56,7.95 14.68,6.8 12,6.8M9.93,10.59C10.58,10.59 11.11,11.16 11.1,11.86C11.1,12.55 10.58,13.13 9.93,13.13C9.29,13.13 8.77,12.55 8.77,11.86C8.77,11.16 9.28,10.59 9.93,10.59M14.1,10.59C14.75,10.59 15.27,11.16 15.27,11.86C15.27,12.55 14.75,13.13 14.1,13.13C13.46,13.13 12.94,12.55 12.94,11.86C12.94,11.16 13.45,10.59 14.1,10.59Z" />
+							</svg>
+						</a>
+						<a className="thumbnailBtn" onClick={slide6}>
+							<svg style={{width:"24px", height:"24px"}} viewBox="0 0 24 24">
+							    <path d="M22.11 21.46L20.84 22.73L17.69 19.58C17.36 20.21 16.93 20.77 16.41 21.25C14.86 22.71 12.69 23.31 10.61 22.85C7.1 22.1 4.87 18.64 5.62 15.13C5.87 13.95 6.45 12.87 7.28 12C7.62 11.64 7.62 11.08 7.28 10.72C6.63 9.91 6.21 8.95 6.04 7.93L1.11 3L2.39 1.73L22.11 21.46M15.3 19.56C15.69 19.13 16 18.63 16.19 18.08L13.75 15.64C13.57 15.87 13.29 16 13 16C12.45 16 12 15.55 12 15C12 14.71 12.13 14.43 12.36 14.25L9.55 11.44C9.53 12.18 9.24 12.88 8.73 13.41C7.03 15.22 7.13 18.07 8.94 19.77L8.95 19.78C10.76 21.47 13.61 21.37 15.3 19.56M14 17C12.71 17 12.72 19 14 19C15.28 19 15.29 17 14 17M6.9 3.7L8.43 5.23C8.68 4.71 9.05 4.25 9.5 3.89C10.2 3.31 11.09 3 12 3H12.88C13.47 3.14 14 3.41 14.5 3.79C16.22 5.17 16.5 7.69 15.12 9.41C14.7 9.93 14.46 10.58 14.45 11.25L18.32 15.12C18.07 13.97 17.5 12.92 16.72 12.06C16.37 11.7 16.33 11.13 16.62 10.72C16.62 10.72 18 9 18 7S15.97.997 12 .997 6.9 3.7 6.9 3.7M12 17C12 15.71 10 15.72 10 17C10 18.28 12 18.29 12 17M13 5C11.71 5 11.72 7 13 7C14.28 7 14.29 5 13 5Z" />
 							</svg>
 						</a>
 					</div>
