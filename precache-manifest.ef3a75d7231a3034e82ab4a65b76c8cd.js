@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e83e72c5ba2bb52a88452de774c8082a",
+    "revision": "d6cd941c971550427bfeb5df0e7a38b8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "34fa16e56f7d1bc284c3",
+    "revision": "bfc238f0c15e05a8a509",
     "url": "/portfolio/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "dfba0b9e736f3db2490c",
-    "url": "/portfolio/static/css/main.59346e4f.chunk.css"
+    "revision": "826c5ef27c0740e0c94c",
+    "url": "/portfolio/static/css/main.00a054e4.chunk.css"
   },
   {
-    "revision": "34fa16e56f7d1bc284c3",
-    "url": "/portfolio/static/js/2.33475fcf.chunk.js"
+    "revision": "bfc238f0c15e05a8a509",
+    "url": "/portfolio/static/js/2.e266b648.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/portfolio/static/js/2.33475fcf.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.e266b648.chunk.js.LICENSE"
   },
   {
-    "revision": "dfba0b9e736f3db2490c",
-    "url": "/portfolio/static/js/main.00f0ca56.chunk.js"
+    "revision": "826c5ef27c0740e0c94c",
+    "url": "/portfolio/static/js/main.41560c63.chunk.js"
   },
   {
     "revision": "0b55f3ec0db65d786f2e",
@@ -40,8 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Helvetica-Light.2020b196.ttf"
   },
   {
-    "revision": "b6876d85cd178b5b1f04a6bfe04b0335",
-    "url": "/portfolio/static/media/Resume v2.b6876d85.pdf"
+    "revision": "24f7d5ede199382d8fd376c4c33989b9",
+    "url": "/portfolio/static/media/Resume-final.24f7d5ed.pdf"
+  },
+  {
+    "revision": "635867ac6103b853ed5fc10e3c45c2d0",
+    "url": "/portfolio/static/media/allergize_1.635867ac.jpg"
+  },
+  {
+    "revision": "80e9a96d01ca6d327ae612dc298e5e0a",
+    "url": "/portfolio/static/media/allergize_2.80e9a96d.jpg"
+  },
+  {
+    "revision": "7804ca9f59febcd7c52f227b0392856e",
+    "url": "/portfolio/static/media/allergize_3.7804ca9f.jpg"
   },
   {
     "revision": "8471bfe0030d4050eb9072b8789678f1",
