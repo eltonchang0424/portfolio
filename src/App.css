@@ -70,6 +70,18 @@
   margin-left: 10px;
 }
 
+@keyframes pulse2 {
+  0%{
+    fill: rgba(255,29,93,1);
+  }
+  50%{
+    fill: rgba(0,255,186,1);
+  }
+  100%{
+    fill: rgba(255,29,93,1);
+  }
+}
+
 .menuButton{
   min-height: 50px;
   margin-top: 5px;
@@ -79,10 +91,11 @@
   box-shadow: -4px -4px 3px 0 rgba(255,255,255,0.07),
               4px 4px 3px 0 rgba(0,0,0,0.35);
   transition: 0.3s;
-  fill: rgba(0,255,186,1);
+  animation: pulse2 2s infinite;
 }
 
 .menuButton:hover{
+  animation: none;
   fill: rgba(255,29,93,1);
   box-shadow: inset -2px -2px 3px 0 rgba(255,255,255,0.1),
             inset 2px 2px 3px 0 rgba(0,0,0,0.35);
