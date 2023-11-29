@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a05e5761.chunk.css",
-    "main.js": "/portfolio/static/js/main.f3570283.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f3570283.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.71b8c3aa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.71b8c3aa.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.40543fb4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.40543fb4.js.map",
     "static/css/2.7abef457.chunk.css": "/portfolio/static/css/2.7abef457.chunk.css",
     "static/js/2.e266b648.chunk.js": "/portfolio/static/js/2.e266b648.chunk.js",
     "static/js/2.e266b648.chunk.js.map": "/portfolio/static/js/2.e266b648.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.52e0571cc3fdc6a2c355982defcb2ebc.js": "/portfolio/precache-manifest.52e0571cc3fdc6a2c355982defcb2ebc.js",
+    "precache-manifest.a7c0453602d556bc597a855d8a80251e.js": "/portfolio/precache-manifest.a7c0453602d556bc597a855d8a80251e.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/portfolio/static/css/2.7abef457.chunk.css.map",
     "static/css/main.a05e5761.chunk.css.map": "/portfolio/static/css/main.a05e5761.chunk.css.map",
     "static/js/2.e266b648.chunk.js.LICENSE": "/portfolio/static/js/2.e266b648.chunk.js.LICENSE",
     "static/media/App.css": "/portfolio/static/media/yoxall-bold.3d30c83f.ttf",
     "static/media/Art.css": "/portfolio/static/media/Helvetica-BoldItalic.ce2ac7ce.ttf",
-    "static/media/Resume-final.pdf": "/portfolio/static/media/Resume-final.57c43f23.pdf",
+    "static/media/Resume v2.pdf": "/portfolio/static/media/Resume v2.c3406942.pdf",
     "static/media/allergize_1.jpg": "/portfolio/static/media/allergize_1.635867ac.jpg",
     "static/media/allergize_2.jpg": "/portfolio/static/media/allergize_2.80e9a96d.jpg",
     "static/media/allergize_3.jpg": "/portfolio/static/media/allergize_3.7804ca9f.jpg",
@@ -31,9 +31,9 @@
     "static/media/logo_diag.png": "/portfolio/static/media/logo_diag.d5a3d7b4.png",
     "static/media/monolith.jpg": "/portfolio/static/media/monolith.6ba5f53b.jpg",
     "static/media/owl.jpg": "/portfolio/static/media/owl.69e65858.jpg",
+    "static/media/pic.png": "/portfolio/static/media/pic.7949f735.png",
     "static/media/reclaimEarth.png": "/portfolio/static/media/reclaimEarth.c375ec46.png",
     "static/media/reclaimEarth2.png": "/portfolio/static/media/reclaimEarth2.01c75fbe.png",
-    "static/media/sfprof.png": "/portfolio/static/media/sfprof.3feb1a2d.png",
     "static/media/turtle.jpg": "/portfolio/static/media/turtle.7f136716.jpg",
     "static/media/whale.jpg": "/portfolio/static/media/whale.66d6723a.jpg"
   },
@@ -42,6 +42,6 @@
     "static/css/2.7abef457.chunk.css",
     "static/js/2.e266b648.chunk.js",
     "static/css/main.a05e5761.chunk.css",
-    "static/js/main.f3570283.chunk.js"
+    "static/js/main.71b8c3aa.chunk.js"
   ]
 }
