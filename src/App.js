@@ -254,7 +254,7 @@ function App() {
                 &nbsp;/&nbsp;
               </span>
               <span className="desc" data-aos="fade-right" data-aos-delay={delay+=offset}>
-                College Student
+                Musician
               </span>
               <br></br><br></br><br></br><br></br> 
               <div data-aos="fade-in" data-aos-delay={delay+=offset}>

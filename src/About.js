@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import "./About.css";
 
-import prof from "./images/sfprof.png";
-import resume from "./images/Resume-final.pdf"
+import prof from "./images/pic.png";
+import resume from "./images/Resume v2.pdf"
 
 var delay = 0;
 var offset = 50;
@@ -54,11 +54,11 @@ class About extends Component{
 						</span>
 						<br></br><br></br><br></br><br></br>
 						<span className="info" data-aos="fade-right" data-aos-delay={delay+=300}>
-							Hey there! I’m Elton. I’m currently a junior studying computer science at UC Irvine. Ranging from artificial intelligence to web development, I’m always trying to learn something new. I will always enjoy a good puzzle, and to me, the field of computer science is full of them, just waiting to be solved.
+							Hey there! I’m Elton. I’m currently a software engineer at Amazon. Ranging from artificial intelligence to web development, I’m always trying to learn something new. I will always enjoy a good puzzle, and to me, the field of computer science is full of them, just waiting to be solved.
 							<br></br><br></br>
-							Whenever I’m not busy working on schoolwork or personal projects, I enjoy playing the piano or doodling away mindlessly. Feel free to browse through what I’ve done!
+							Whenever I’m not busy with work or personal projects, I enjoy expressing my creative side through creating music and doodling away mindlessly. Feel free to browse through what I’ve done!
 							<br></br><br></br>
-							Below are some of the tools I’ve used in my projects.<br></br><br></br>
+							Below are some of the tools I’ve become familiar with through my work and projects.<br></br><br></br>
 						</span>
 						<div className="lists" data-aos="fade-right" data-aos-delay={delay+=300}>
 							<ul>
@@ -68,17 +68,18 @@ class About extends Component{
 								<li>C++</li>
 								<li>Java</li>
 								<li>JavaScript</li>
+								<li>TypeScript</li>
 								<li>HTML</li>
 								<li>CSS</li>
 							</ul>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							<ul>
 								<span className="listTitle"> Technologies<br></br><br></br> </span>
+								<li>AWS</li>
 								<li>NodeJS</li>
 								<li>React</li>
 								<li>Flask</li>
 								<li>Unity</li>
-								<li>Adobe Photoshop</li>
 							</ul>
 						</div>
 					</div>

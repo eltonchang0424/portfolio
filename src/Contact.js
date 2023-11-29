@@ -62,7 +62,7 @@ class Contact extends Component{
 					</div>
 					<br></br><br></br>
 					<div className="contactInfoDesc" data-aos="fade-in" data-aos-delay={delay+=offset}>
-						I'm currenty looking for a software internship, but feel free to ask me anything!<br></br>My contact information is below, and other links are on the right.
+						Feel free to ask me anything!<br></br>My contact information is below, and other links are on the right.
 					</div>
 					<br></br>
 					<div className="contactInfoContainer" data-aos="fade-right" data-aos-delay={delay+=150}>
@@ -83,12 +83,12 @@ class Contact extends Component{
 								</svg>
 							</a>
 							<span className="contactInfoText">
-								(408)600-9749
+								(408) 600-9749
 							</span>
 						</div>
 					</div>
 					<div className="copyright">
-						© 2020 Elton Chang
+						© 2024 Elton Chang
 					</div>
 				</div>
 			</div>
